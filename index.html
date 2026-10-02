@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SynaptoScope 3D • Next-Gen Code City Visualizer</title>
+  <meta name="description" content="Explore source code architectures in immersive 3D cyber cities and holographic neural graphs. Created by Md Mushfiqur Rahim (@MD-Mushfiqur123)." />
+  <meta name="author" content="Md Mushfiqur Rahim" />
+  <meta name="theme-color" content="#00f0ff" />
+  
+  <!-- Cyber Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2300f0ff' stroke-width='2'><path stroke-linecap='round' stroke-linejoin='round' d='M13 10V3L4 14h7v7l9-11h-7z'/></svg>" />
+</head>
+<body class="bg-[#03060d] text-white overflow-hidden select-none">
+  <!-- 3D WebGL Canvas Container -->
+  <div id="canvas-container" class="absolute inset-0 z-10 w-full h-full"></div>
+
+  <!-- Main UI Application Container (HUD, Inspector, Dropzone) -->
+  <div id="app" class="relative z-20 w-full h-full pointer-events-none"></div>
+
+  <!-- Hologram Hover Tooltip -->
+  <div id="hover-tooltip" class="holo-tooltip opacity-0"></div>
+
+  <!-- Entry Script -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
